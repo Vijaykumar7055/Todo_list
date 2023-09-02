@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(7, 7, 36);
+}
+.body{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120vh;
+}
+
+figcaption{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+.child-container{
+    position: absolute;
+    top: 20%;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(rgb(7,7,36),rgb(17, 17, 71));
+    box-shadow: 2px 3px 10px 3px  rgb(58, 58, 175) ;
+    
+    
+}
+
+.child-container i{
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.child-container input{
+    background-color: white;
+   border: none;
+   outline: none;
+   width: 40vh;
+    padding: 7px 0;
+} .AddItems{
+    border: 2px solid white;
+    background-color: white;
+}
+
+.EachItem{
+    color: white;
+    display: flex;
+ width: 43.5vh;
+    justify-content: space-between;
+    background-color: rgb(81, 235, 34);
+    margin-top: 30px;
+    padding: 5px 0;
+ 
+  
+}
+.EachItem i,h4{
+    background-color: rgb(81, 235, 34);
+    padding:  5px;
+  
+}
+
+.btn-effect{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: blueviolet;
+    margin-top: 10px;
+
+}
+
+
